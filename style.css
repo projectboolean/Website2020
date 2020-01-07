@@ -1,0 +1,44 @@
+* {
+    --orange-strong:#ff861c;
+    --orange-fade  :#ffe0c4;
+}
+
+body{
+    background-color: white;
+    color:black;
+    margin:0;
+    padding:10vh 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.container-sm{
+    border:2px #dddddd solid;
+    border-radius: 0.3em;
+}
+
+.code {
+    background-color: #e9e9e9;
+    border-radius: 0.2em;
+    padding: 0.2em;
+}
+
+.detail{
+    text-decoration: bold;
+    color:var(--orange-strong);
+}
+
+.col_orange{
+    color: var(--orange-strong);
+}
+
+.bg_orange{
+    background-color: var(--orange-fade);
+}
+
+.bg_orange_strong{
+    background-color: var(--orange-strong);
+}
+
