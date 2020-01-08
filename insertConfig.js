@@ -1,7 +1,7 @@
 var config;
 
 //fetch config from server root
-$.get("/config.json", (res, status) => {
+$.get("config.json", (res, status) => {
     //success
     config = res;
     insertDetailsFromConfig();
@@ -22,6 +22,14 @@ function insertDetailsFromConfig() {
             $(element).text(`#ERROR:${key}#`);
         }else{
             $(element).text(config[key]);
+        }
+    });
+    $("a.detail").each((index, element)=>{
+        let key = $(element).attr("key");
+        if(config[key]===undefined){
+            $(element).attr("href","/");
+        }else{
+            $(element).attr("href",config[key]);
         }
     });
 }
