@@ -1,6 +1,7 @@
 * {
-    --orange-strong:#ff861c;
+    --orange-strong:#ff6a00;
     --orange-fade  :#ffe0c4;
+    --code-bg      :#dddddd;
 }
 
 body{
@@ -15,8 +16,16 @@ h1{
 }
 
 .container-sm{
-    border:2px #dddddd solid;
+    border:2px var(--code-bg) solid;
     border-radius: 0.3em;
+    max-width: 500px;
+    margin: auto;
+}
+
+.container-sm-header{
+    background: var(--code-bg);
+    width: 100%;
+    margin:0;
 }
 
 .code {
