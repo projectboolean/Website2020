@@ -4,5 +4,8 @@
 	"endTime":"12:00 pm",
 	"address": "Room 1, UW Computer Science hall, 1210 W Dayton St, Madison, WI",
 	"addressMapUrl": "https://goo.gl/maps/L4KYuGgj2vVp5xE58",
-	"fee": "free!"
+	"fee": "free!",
+    "contactEmail": "eg.co.johnson@gmail.com" ,
+    "formUrl":"https://forms.gle/Q8Ajw5vS4Vaor7q76",
+    "level3Sponsors": "Sponsor1, Sponsor2, and SponsorLast"
 }
