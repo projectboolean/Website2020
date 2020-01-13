@@ -19,7 +19,9 @@ h1{
 .container-sm{
     border:2px var(--code-bg) solid;
     border-radius: 0.3em;
-    max-width: 500px;
+    max-width:calc(100vw - 5px);
+    width:500px;
+    min-width: 40em;
     margin: auto;
     padding:0 15px;
 }
