@@ -18,15 +18,14 @@ h1{
 }
 
 
-.container-md{
+.wrapper{
     border:2px var(--code-bg) solid;
     border-radius: 0.3em;
-    width:700px;
-    margin: auto;
+    margin: auto !important;
     padding:0 15px;
 }
 
-.container-md-header{
+.wrapper-header{
     background: var(--code-bg);
     width: calc(100%+30px);
     margin:0 -15px;
