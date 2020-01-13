@@ -8,7 +8,8 @@ body{
     background-color: white;
     color:black;
     margin:0;
-    padding:10px 10px;
+    padding:0px 10px;
+    font-size: 125% !important;
 }
 
 h1{
@@ -16,17 +17,16 @@ h1{
     padding:5vh 0;
 }
 
-.container-sm{
+
+.container-md{
     border:2px var(--code-bg) solid;
     border-radius: 0.3em;
-    max-width:calc(100vw - 5px);
-    width:500px;
-    min-width: 40em;
+    width:700px;
     margin: auto;
     padding:0 15px;
 }
 
-.container-sm-header{
+.container-md-header{
     background: var(--code-bg);
     width: calc(100%+30px);
     margin:0 -15px;
